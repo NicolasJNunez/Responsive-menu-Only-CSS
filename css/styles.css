@@ -101,3 +101,56 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 
 }
 
+.cont-cont {
+  display: flex;
+  justify-content: end;
+  padding-right: 11%;
+}
+
+.cont {
+  width: 150px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cont__span {
+  font-size: 3rem;
+}
+
+@media (max-width: 1500px) {
+  .cont-cont {
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cont-cont {
+    padding-right: 9%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cont-cont {
+    padding-right: 8%;
+  }
+}
+
+@media (max-width: 800px) {
+  .cont-cont {
+    padding-right: 7%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cont-cont {
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cont-cont {
+    padding-right: 2%;
+  }
+}
